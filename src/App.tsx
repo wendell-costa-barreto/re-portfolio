@@ -159,7 +159,7 @@ const SITE: SiteData = {
       date: "Apr 2026",
       title: "The hidden cost of too many animation libraries",
       excerpt: "Soon available",
-      url: "#",
+      url: "https://www.linkedin.com/pulse/why-most-business-websites-look-good-lose-money-barreto-junior-alrvf",
     },
     {
       date: "Apr 2026",

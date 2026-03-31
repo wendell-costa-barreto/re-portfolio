@@ -89,9 +89,9 @@ const translations: Record<Language, Record<string, string>> = {
     "blog.post2.title": "Why too many animations are actually self-defeating",
     "blog.post2.excerpt":
       "A deep dive into why too many animations actually make a website's performance a lot more poor and the user experience a lot less pleasant. (SOON AVAILABLE TO READ)",
-    "blog.post3.title": "Accessibility is a design problem, not a dev problem",
+    "blog.post3.title": "Why Most Business Websites Look Good But Lose Money",
     "blog.post3.excerpt":
-      "On why accessibility debt starts in Figma and what frontend devs can do to push back — constructively. (SOON AVAILABLE TO READ)",
+      "Most business websites work—but still underperform. Here’s why that happens and what it actually costs.",
 
     // Shared project UI labels
     "project.viewLive": "Live site",
@@ -226,9 +226,9 @@ const translations: Record<Language, Record<string, string>> = {
     "blog.post2.excerpt":
       "Uma análise aprofundada de por que animações em excesso prejudicam a performance do site e tornam a experiência do usuário muito menos agradável. (EM BREVE)",
     "blog.post3.title":
-      "Acessibilidade é um problema de design, não de desenvolvimento",
+      "Por que a maioria dos sites de empresas parece boa, mas perde dinheiro",
     "blog.post3.excerpt":
-      "Sobre por que a dívida de acessibilidade começa no Figma e o que desenvolvedores frontend podem fazer para contestar — de forma construtiva. (EM BREVE)",
+      "A maioria dos sites de empresas funciona — mas ainda tem baixo desempenho. Veja por que isso acontece e quanto isso realmente custa.",
 
     // Shared project UI labels
     "project.viewLive": "Ver site",
@@ -363,10 +363,9 @@ const translations: Record<Language, Record<string, string>> = {
     "blog.post2.excerpt":
       "Un análisis profundo de por qué el exceso de animaciones perjudica el rendimiento del sitio y hace la experiencia de usuario mucho menos agradable. (PRÓXIMAMENTE)",
     "blog.post3.title":
-      "La accesibilidad es un problema de diseño, no de desarrollo",
+      "Por qué la mayoría de los sitios web de empresas se ven bien pero pierden dinero",
     "blog.post3.excerpt":
-      "Sobre por qué la deuda de accesibilidad comienza en Figma y qué pueden hacer los desarrolladores frontend para contrarrestarlo — de manera constructiva. (PRÓXIMAMENTE)",
-
+      "La mayoría de los sitios web de empresas funcionan, pero siguen teniendo un bajo rendimiento. Aquí te explico por qué ocurre y cuánto cuesta realmente.",
     // Shared project UI labels
     "project.viewLive": "Ver sitio",
     "project.viewCode": "Código",
@@ -501,9 +500,9 @@ const translations: Record<Language, Record<string, string>> = {
     "blog.post2.excerpt":
       "Une analyse approfondie de pourquoi un excès d'animations nuit aux performances du site et rend l'expérience utilisateur bien moins agréable. (BIENTÔT DISPONIBLE)",
     "blog.post3.title":
-      "L'accessibilité est un problème de design, pas de développement",
+      "Pourquoi la plupart des sites d’entreprise sont beaux mais perdent de l’argent",
     "blog.post3.excerpt":
-      "Pourquoi la dette d'accessibilité commence dans Figma et ce que les développeurs frontend peuvent faire pour la contrer — de manière constructive. (BIENTÔT DISPONIBLE)",
+      "La plupart des sites d’entreprise fonctionnent — mais restent peu performants. Voici pourquoi cela arrive et ce que cela coûte réellement.",
 
     // Shared project UI labels
     "project.viewLive": "Voir le site",
@@ -639,9 +638,9 @@ const translations: Record<Language, Record<string, string>> = {
     "blog.post2.excerpt":
       "Eine tiefgehende Analyse, warum übermäßige Animationen die Performance einer Website verschlechtern und das Nutzererlebnis deutlich weniger angenehm machen. (DEMNÄCHST VERFÜGBAR)",
     "blog.post3.title":
-      "Barrierefreiheit ist ein Designproblem, kein Entwicklungsproblem",
+      "Warum die meisten Unternehmenswebsites gut aussehen, aber Geld verlieren",
     "blog.post3.excerpt":
-      "Warum Barrierefreiheitsschulden in Figma beginnen und was Frontend-Entwickler tun können, um konstruktiv dagegen vorzugehen. (DEMNÄCHST VERFÜGBAR)",
+      "Die meisten Unternehmenswebsites funktionieren — aber ihre Leistung bleibt schwach. Hier ist, warum das passiert und was es tatsächlich kostet.",
 
     // Shared project UI labels
     "project.viewLive": "Live-Site",
