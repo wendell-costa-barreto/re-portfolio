@@ -115,8 +115,8 @@ const SITE: SiteData = {
       role: "Creator & Developer",
       year: "2025 – Present",
       tags: ["React", "Tailwind CSS", "Firebase"],
-      liveUrl: null,
-      codeUrl: null,
+      liveUrl: undefined,
+      codeUrl: undefined,
       demoUnavailable: true,
     },
     {
@@ -128,8 +128,8 @@ const SITE: SiteData = {
       role: "Frontend Developer",
       year: "2026",
       tags: ["React", "Tailwind CSS"],
-      liveUrl: null,
-      codeUrl: null,
+      liveUrl: undefined,
+      codeUrl: undefined,
       comingSoon: true,
     },
     {
@@ -141,8 +141,8 @@ const SITE: SiteData = {
       role: "Frontend Developer",
       year: "2026",
       tags: ["React", "Tailwind CSS"],
-      liveUrl: null,
-      codeUrl: null,
+      liveUrl: undefined,
+      codeUrl: undefined,
       comingSoon: true,
     },
   ],
@@ -243,11 +243,6 @@ const WendellPortfolio: React.FC = () => {
   const allSkills = SITE.skills
     .flatMap((c) => c.items.map((i) => i.name))
     .slice(0, 8);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Form submitted (demo)");
-  };
 
   return (
     <>

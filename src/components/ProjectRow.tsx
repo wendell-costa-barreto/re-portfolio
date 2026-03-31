@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { useLanguage } from "../context/LanguageContext";
 
 export interface Project {
+  id?: string;
   name: string;
   tagline: string;
   description: string;
@@ -10,6 +11,8 @@ export interface Project {
   tags: string[];
   liveUrl?: string;
   codeUrl?: string;
+  demoUnavailable?: boolean;
+  comingSoon?: boolean;
 }
 
 interface ProjectRowProps {

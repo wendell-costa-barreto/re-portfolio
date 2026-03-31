@@ -1,10 +1,5 @@
-import React, {
-  createContext,
-  useContext,
-  useState,
-  useEffect,
-  ReactNode,
-} from "react";
+import React, { createContext, useContext, useState, useEffect } from "react";
+import type { ReactNode } from "react";
 
 export type Language = "en" | "pt" | "es" | "fr" | "de";
 
@@ -715,7 +710,7 @@ const translations: Record<Language, Record<string, string>> = {
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const [language, setLanguage] = useState<Language>("en");
+  const [language, setLanguage] = useState<Language>(getBrowserLanguage);
   useEffect(() => {
     document.documentElement.lang = language;
   }, [language]);
