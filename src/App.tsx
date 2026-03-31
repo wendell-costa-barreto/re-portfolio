@@ -306,10 +306,6 @@ const WendellPortfolio: React.FC = () => {
               <p>{SITE.location}</p>
             </div>
             <div className="aside-block">
-              <h4>{t("about.experience")}</h4>
-              <p>{t("about.experience_value")}</p>
-            </div>
-            <div className="aside-block">
               <h4>{t("about.currently")}</h4>
               <p>{t("about.available")}</p>
             </div>
