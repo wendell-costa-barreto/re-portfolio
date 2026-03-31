@@ -169,7 +169,7 @@ const translations: Record<Language, Record<string, string>> = {
     "nav.writing": "Artigos",
     "nav.contact": "Contato",
 
-    // Hero T
+    // Hero
     "hero.tagline": "Desenvolvedor Frontend",
     "hero.intro":
       "Crio interfaces que parecem inevitáveis — lógica limpa tornada bela.",
